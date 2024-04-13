@@ -1,0 +1,17 @@
+<h1>New Tweet</h1>
+
+<form action="/tweets" method="post">
+  <div>
+    <label for="tweet_body">Body</label><br>
+    <textarea name="tweet[body]" id="tweet_body"></textarea>
+  </div>
+
+  <div>
+    <label for="tweet_author">Author</label><br>
+    <input type="text" name="tweet[author]" id="tweet_author">
+  </div>
+
+  <div>
+    <input type="submit" value="Create tweet">
+  </div>
+</form>

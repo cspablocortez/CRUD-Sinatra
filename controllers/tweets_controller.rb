@@ -4,13 +4,16 @@ require './models/tweet'
 
 # CREATE
 get '/tweets/new' do
-    erb :new
+    erb :'tweets/new'
 end
 
 post '/tweets' do
     tweet = Tweet.new(params[:tweet])
-    tweet.save
-    redirect to("/tweets/#{tweet.id}")
+    if tweet.save
+        redirect to("/tweets")
+    else
+        erb :'tweets/new'
+    end
 end
 
 # READ
@@ -19,9 +22,13 @@ get '/tweets' do
     erb :'tweets/index'
 end
 
-get 'tweets/:id' do 
-    @tweet = Tweet.find(params[:id])
-    erb :show
+get '/tweets/:id' do 
+    @tweet = Tweet.find_by(id: params[:id]) # find_by returns nil
+    if @tweet
+        erb :'tweets/show'
+    else
+        redirect to("/")
+    end
 end
 
 # UPDATE
