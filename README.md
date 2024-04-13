@@ -80,3 +80,18 @@ end
 ```bash
 bundle exec rake db:create_migration NAME=create_tweets
 ```
+
+3. Modify the newly created migration file, which should be at `db/migrate/YYYYMMDDHHMMSS_create_tweets.rb`:
+
+```ruby
+class CreateTweets < ActiveRecord::Migration[7.1]
+  def change
+    create_table :tweets do |t|
+      t.string :body
+      t.string :author
+
+      t.timestamps
+    end
+  end
+end
+```
