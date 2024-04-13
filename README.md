@@ -24,3 +24,9 @@ $ touch Rakefile
 4. Set up Rakefile
 
 Rake is a task runner. For more info: [RubyGuides.com](https://www.rubyguides.com/2019/02/ruby-rake/)
+
+5. Run app
+
+```console
+$ bundle exec ruby app.rb
+```
