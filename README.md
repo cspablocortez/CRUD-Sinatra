@@ -47,3 +47,5 @@ end
 ```bash
 bundle exec ruby app.rb
 ```
+
+4. Point your web browser to `localhost:4567` and you should see your app running.
