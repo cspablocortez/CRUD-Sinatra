@@ -75,3 +75,8 @@ get '/' do
 end
 ```
 
+2. Generate the migration
+
+```bash
+bundle exec rake db:create_migration NAME=create_tweets
+```
