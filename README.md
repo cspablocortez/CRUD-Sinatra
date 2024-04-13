@@ -1,6 +1,10 @@
 # CRUD-Sinatra
  Create Read Update Delete functions in Sinatra Ruby.
 
+## Live Development Link
+
+https://aqueous-cove-12225-6ece558aa256.herokuapp.com
+
 ## Instructions
 
 Instructions for a simple Sinatra web app with database support.
@@ -101,4 +105,5 @@ end
 ```bash
 bundle exec rake db:migrate
 ```
+This should create two new files, `db/migrate/schema.rb` and `tweets.db`
 
