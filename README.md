@@ -18,7 +18,7 @@ gem 'rake'                                                                      
 gem 'thin'                                                                         # Thin and fast web server
 ```
 
-```console
+```bash
 bundle install
 ```
 
@@ -42,8 +42,8 @@ get '/' do
 end
 ```
 
-3. Run `app.rb`
+3. Run `app.rb` in the console:
 
-```console
+```bash
 bundle exec ruby app.rb
 ```
