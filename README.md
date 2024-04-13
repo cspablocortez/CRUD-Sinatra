@@ -95,3 +95,10 @@ class CreateTweets < ActiveRecord::Migration[7.1]
   end
 end
 ```
+
+4. Run the migration to create database:
+
+```bash
+bundle exec rake db:migrate
+```
+
