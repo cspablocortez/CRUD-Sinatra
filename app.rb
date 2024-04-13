@@ -9,3 +9,6 @@ class Tweet < ActiveRecord::Base
     # Define associations, validations, and other model logic here
 end
 
+get '/' do
+    "Hello world!"
+end
