@@ -3,29 +3,24 @@
 
 ### NOTES
 
+Instructions for a simple Sinatra web app with database support.
+
 INSTRUCTIONS
 
-1. Add dependencies (all the necessary components of our app)
+1. Create `Gemfile`:
 
 2. Install all dependencies 
 
+```console
 $ bundle install
+```
 
-3. Create "Rakefile"
+3. Create Rakefile
 
+```console
 $ touch Rakefile
+```
 
-4. Add content to Rakefile
+4. Set up Rakefile
 
-5. Push to Github
-
-6. Create Tweet model in app.rb
-
-7. Create a db migration
-
-$ bundle exec rake db:create_migration NAME=create_tweets
-
-8. Run migration
-
-$ bundle exec rake db:migrate
-
+Rake is a task runner. For more info: [RubyGuides.com](https://www.rubyguides.com/2019/02/ruby-rake/)
