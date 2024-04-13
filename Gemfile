@@ -6,3 +6,4 @@ gem 'sinatra-activerecord', require: 'sinatra/activerecord'                     
 gem 'sqlite3'                                                                      # Database adapter
 gem 'rake'                                                                         # Task runner
 gem 'thin'                                                                         # Thin and fast web server
+gem 'rackup'

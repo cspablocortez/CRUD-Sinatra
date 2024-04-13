@@ -34,6 +34,9 @@ GEM
     rack-protection (3.2.0)
       base64 (>= 0.1.0)
       rack (~> 2.2, >= 2.2.4)
+    rackup (1.0.0)
+      rack (< 3)
+      webrick
     rake (13.2.1)
     ruby2_keywords (0.0.5)
     sinatra (3.2.0)
@@ -58,6 +61,7 @@ GEM
     timeout (0.4.1)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    webrick (1.8.1)
 
 PLATFORMS
   aarch64-linux
@@ -69,6 +73,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  rackup
   rake
   sinatra
   sinatra-activerecord
