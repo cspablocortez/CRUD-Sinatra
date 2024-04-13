@@ -1,32 +1,26 @@
 # CRUD-Sinatra
  Create Read Update Delete functions in Sinatra Ruby.
 
-### NOTES
+### Instructions
 
 Instructions for a simple Sinatra web app with database support.
 
-INSTRUCTIONS
-
-1. Create `Gemfile`:
-
-2. Install all dependencies 
+1. Create `Gemfile` and install dependencies (reference this project's `Gemfile`)
 
 ```console
-$ bundle install
+bundle install
 ```
 
-3. Create Rakefile
+2. Create Rakefile
 
 ```console
-$ touch Rakefile
+touch Rakefile
 ```
-
-4. Set up Rakefile
 
 Rake is a task runner. For more info: [RubyGuides.com](https://www.rubyguides.com/2019/02/ruby-rake/)
 
 5. Run app
 
 ```console
-$ bundle exec ruby app.rb
+bundle exec ruby app.rb
 ```
