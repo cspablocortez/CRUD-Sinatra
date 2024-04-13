@@ -1,0 +1,9 @@
+<h1>All Tweets</h1>
+
+<% @tweets.each do |tweet| %>
+    <div class="row tweet">
+        <p><%= "(#{tweet.created_at}) #{tweet.body}"%></p>
+        <p style="float: right"><%= tweet.author %></p>
+    </div>
+    <hr>
+<% end %>
