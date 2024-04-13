@@ -22,13 +22,8 @@ gem 'thin'                                                                      
 bundle install
 ```
 
-2. Create Rakefile. Rake is a task runner. For more info: [RubyGuides.com](https://www.rubyguides.com/2019/02/ruby-rake/)
+2. Create `Rakefile`. Rake is a task runner. For more info: [RubyGuides.com](https://www.rubyguides.com/2019/02/ruby-rake/)
 
-```console
-touch Rakefile
-```
-
-`Rakefile`
 ```ruby
 require 'sinatra/activerecord/rake'
 require './app'
@@ -47,7 +42,7 @@ get '/' do
 end
 ```
 
-3. Run app
+3. Run `app.rb`
 
 ```console
 bundle exec ruby app.rb
