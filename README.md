@@ -24,18 +24,20 @@ gem 'rake'                                                                      
 gem 'thin'                                                                         # Thin and fast web server
 ```
 
+2. Install dependencies in the console:
+
 ```bash
 bundle install
 ```
 
-2. Create `Rakefile`. Rake is a task runner. For more info: [RubyGuides.com](https://www.rubyguides.com/2019/02/ruby-rake/)
+3. Create `Rakefile`. Rake is a task runner. For more info: [RubyGuides.com](https://www.rubyguides.com/2019/02/ruby-rake/)
 
 ```ruby
 require 'sinatra/activerecord/rake'
 require './app'
 ```
 
-3. Create `app.rb`
+4. Create `app.rb`
 
 ```ruby
 require 'sinatra'
@@ -48,13 +50,13 @@ get '/' do
 end
 ```
 
-3. Run `app.rb` in the console:
+5. Run `app.rb` in the console:
 
 ```bash
 bundle exec ruby app.rb
 ```
 
-4. Point your web browser to `localhost:4567` and you should see your app running.
+6. Point your web browser to `localhost:4567` and you should see your app running.
 
 ### Database
 
