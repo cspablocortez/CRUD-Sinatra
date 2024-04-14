@@ -10,3 +10,12 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.25);
     display: none; /* Ensure modal is initially hidden */
 }
+
+.modal-close {
+    text-align: right;
+}
+
+#exit-btn {
+    font-size: 2rem;
+    float: right;
+}
