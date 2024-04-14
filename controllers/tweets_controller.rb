@@ -2,7 +2,8 @@ require './models/tweet'
 
 # Write the Tweet Controller below
 
-# CREATE
+# CREATE   -------------------------------------------------------------
+
 get '/tweets/new' do
     erb :'tweets/new'
 end
@@ -15,6 +16,8 @@ post '/tweets' do
         erb :'tweets/new'
     end
 end
+
+# END CREATE  ----------------------------------------------------------
 
 # READ
 get '/tweets' do 

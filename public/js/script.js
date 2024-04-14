@@ -4,13 +4,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const instances = M.FloatingActionButton.init(elems, options);
 });
 
-
 document.getElementById('modal-btn').addEventListener('click', function() {
     var modal = document.getElementById('tweetModal');
     modal.style.display = 'block'; // Show the modal
 });
 
-document.querySelector('.modal-close').addEventListener('click', function() {
+document.querySelector('#exit-btn').addEventListener('click', function() {
     var modal = document.getElementById('tweetModal');
     modal.style.display = 'none'; // Hide the modal
 });
